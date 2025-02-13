@@ -5,3 +5,5 @@ tra = count_vactorizer.transform([input("Email : ")])
 ans = spam_mail.predict(tra)
 if ans == 0:print(f"It's spam Mail. Be careful.")
 else: print(f"It's not spam Mail :) ")
+
+# spammail detector
